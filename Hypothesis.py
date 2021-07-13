@@ -1,0 +1,11 @@
+# counting Nucleotide frequency of a given DNA sample
+DNA = input("please enter your DNA sequence below: \n")
+A = DNA.count("A")
+T = DNA.count("T")
+C = DNA.count("C")
+G = DNA.count("G")
+print("the number of A in your DNA sequence is : ",A)
+print("the number of T in your DNA sequence is : ",T)
+print("the number of C in your DNA sequence is : ",C)
+print("the number of G in your DNA sequence is : ",G)
+print("the GC ratio of your DNA sequence is : ",(G + C)/(G + C + T + A))
